@@ -1,4 +1,4 @@
-public class Caller {
+public class Sorted_UnSorted_Array {
     public static void main(String[] args) {        
         // create an empty array --> any size
         int [] arr = new int[100];        
