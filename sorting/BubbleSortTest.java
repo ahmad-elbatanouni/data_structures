@@ -1,8 +1,9 @@
 public class BubbleSortTest {
-    // Bubble Sort #comparisons = N * ( N - 1)
+    // Bubble Sort #comparisons (Worst, Average, Best) = N * ( N - 1)
     // Bubble Sort #swaps
-    //                worst case    ==> elements are ordered in a reverse order = N * ( N - 1)
-    //                Average case  ==> half the elements have to be swapped = N * ( N - 1) / 2
+    //              worst case    ==> elements are ordered in a reverse order = N * ( N - 1)
+    //              Average case  ==> half the elements have to be swapped = N * ( N - 1) / 2
+    //              Best Case ==> ZERO
 
     public static void main(String[] args) {
         BubbleSort obj = new BubbleSort();
@@ -24,6 +25,11 @@ public class BubbleSortTest {
         System.out.println("\nAverage Case:");
         int [] arr5 = {-1, 50, -43, 40, 2};
         obj.bubbleSort_count_swaps(arr5);
+
+
+        System.out.println("\nBest Case:");
+        int [] arr6 = {-43, -1, 2, 40, 50};
+        obj.bubbleSort_count_swaps(arr6);
     }
 
 }
