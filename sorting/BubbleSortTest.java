@@ -1,9 +1,9 @@
 public class BubbleSortTest {
-    // Bubble Sort #comparisons (Worst, Average, Best) = N * ( N - 1)
+    // Bubble Sort #comparisons (Worst, Average, Best) = N * ( N - 1) / 2
     // Bubble Sort #swaps
-    //              worst case    ==> elements are ordered in a reverse order = N * ( N - 1)
-    //              Average case  ==> half the elements have to be swapped = N * ( N - 1) / 2
-    //              Best Case ==> ZERO
+    //        worst case    ==> elements are ordered in a reverse order = N * ( N - 1) / 2
+    //        Average case  ==> half the elements have to be swapped = N * ( N - 1) / 4
+    //        Best Case ==> ZERO
 
     public static void main(String[] args) {
         BubbleSort obj = new BubbleSort();
