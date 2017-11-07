@@ -67,7 +67,7 @@ class InsertionSort {
             int current = array[i];
             int j = i - 1;
             
-            // Descending --> check if array[j] is GREATER THAN current
+            // Ascending --> check if array[j] is GREATER THAN current
             while (j >= 0 && array[j] >= current) {
                 array[j + 1] = array[j];
                 j--;
