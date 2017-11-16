@@ -71,8 +71,8 @@ public class MergeSortTest {
     
     
     public static void MergeStep(int []r1, int []r2, int []result, int start, int end){
-	    int left=0;
-	    int right=0;
+	    int left = 0;
+	    int right = 0;
 	    int i;
 	    
 	    for(i = start; i <= end; i++){
